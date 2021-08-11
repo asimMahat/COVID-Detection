@@ -1,5 +1,5 @@
 # COVID-Detection
-# Covid and other pulmonary infections detection from Radiographic image using pytorch and flask
+## Covid and other pulmonary infections detection from Radiographic image using pytorch and flask
 
 The main objective of this project is to classify the given radiographic (x-ray) image into four categories :
 1. Normal
@@ -7,20 +7,21 @@ The main objective of this project is to classify the given radiographic (x-ray)
 3. Lung Opacity
 4. Pneumonia
 
-# Necessary Dependencies 
+## Necessary Dependencies 
 
 #### 1. Pytorch
-  -> We can install pytorch from its official website "https://pytorch.org/get-started/locally/"
+  -> We can install pytorch from their official website:  https://pytorch.org/get-started/locally/
 
 #### 2. Flask
-  -> Command to install flask
+  -> Command to install flask :
      'pip install flask'
      
 You can make virtual environment in your anaconda navigator and install the necessary libarires there. 
 
-A pretrained Resnet architecture is used to train the model. The model is trained on about 22-23 thousand radiographic image. 
+A pretrained Resnet architecture is used to train the model. The model is trained on about 22-23 thousand radiographic image. Know more about the resnet architecture : https://towardsdatascience.com/an-overview-of-resnet-and-its-variants-5281e2f56035
 
- # Dataset 
+
+ ## Dataset 
  https://www.kaggle.com/preetviradiya/covid19-radiography-dataset
  
  
